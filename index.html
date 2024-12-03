@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Salary Calculator</h1>
+        <label for="hourlyRate">Salary per Hour (€):</label>
+        <input type="number" id="hourlyRate" placeholder="Enter hourly rate" />
+
+        <label for="workHours">Work Hours:</label>
+        <input type="number" id="workHours" placeholder="Enter work hours" />
+
+        <button onclick="calculateSalary()">Calculate Salary</button>
+
+        <h2>Total Salary: €<span id="totalSalary">0</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
